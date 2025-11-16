@@ -15,6 +15,16 @@ The product is designed to deliver the best possible user experience with highly
 
 <br />
 
+## `PROMO` Domains for sale
+
+- 👉 **[AppSeed.us - $49k](https://appseed.us/)**
+- 👉 **[Admin-Dashboards.com - $15k](https://www.admin-dashboards.com/)**
+- 👉 **[UI-Themes.com - $5k](https://ui-themes.com/)**
+- 👉 **[Simpllo.com - $10k](https://www.simpllo.com/)**
+- 👉 **[123SiteBuilder.net - $5k](https://www.123sitebuilder.net/)**
+
+<br />
+
 ### Customize with [Flask App Generator](https://app-generator.dev/tools/flask-generator/)
 
 - Access the [App Generator](https://app-generator.dev/tools/flask-generator/) page
