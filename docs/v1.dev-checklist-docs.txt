@@ -1,0 +1,74 @@
+Hockey Universe App - Expected Documentation for V1
+
+1. README (V1 scope + usage)
+   - what V1 is
+   - how to run it
+   - what data it uses
+   - what is intentionally missing in V1
+   - link to version roadmap
+
+2. V1 Architecture Overview
+   - high-level description of components
+   - UI layer summary
+   - data layer summary
+   - routing summary
+   - telemetry summary
+
+3. Domain Model Specification (V1 subset)
+   - Team object fields
+   - Player object fields
+   - Season object fields
+   - Stats fields (minimal)
+   - relationships (team -> players)
+   - sample data description
+
+4. Data Source Documentation
+   - file names and locations
+   - schema definitions
+   - validation rules
+   - known limitations of V1 data
+
+5. Routing Map
+   - list of all routes
+   - what each route displays
+   - deterministic navigation rules
+   - deep link behavior
+
+6. UI Structure Notes
+   - page list (universe, team list, team detail, player detail, season overview)
+   - layout conventions
+   - styling conventions (V1 level)
+   - asset usage
+
+7. Telemetry Notes (V1 minimal)
+   - what events are logged
+   - where logs are written
+   - log format
+   - known limitations
+
+8. Build + Environment Instructions
+   - clean clone → build → run steps
+   - required tools
+   - folder structure
+   - reproducibility notes
+
+9. Error Handling Notes
+   - how missing/invalid data is handled
+   - how routing errors are handled
+   - how unhandled exceptions are logged
+
+10. V1 Test Notes
+    - manual test checklist
+    - known issues
+    - edge cases tested
+
+11. V1 Release Notes
+    - version number (V1.0.0)
+    - summary of features included
+    - summary of features deferred
+    - link to V2 goals
+
+12. Post-Release Notes
+    - feedback collected
+    - V1 limitations
+    - backlog items for V2

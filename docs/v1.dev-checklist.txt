@@ -1,0 +1,92 @@
+Hockey Universe App - Chronological Steps for V1
+
+1. Establish V1 definition
+   - define V1 as static, deterministic, non-AI
+   - define minimal data layer (local JSON or simple API)
+   - define minimal UI (teams, players, seasons)
+   - define deterministic navigation only
+   - define V1 “done” criteria
+
+2. Create clean project environment
+   - create new repo with clean root
+   - add .gitignore and README
+   - create src, data, assets, logs folders
+   - configure build + run scripts
+   - verify clean build on fresh clone
+
+3. Define domain model (V1 subset)
+   - Team: id, name, city
+   - Player: id, name, position
+   - Season: year, metadata
+   - Stats: minimal fields only
+   - relationships: team -> players
+   - create sample dataset for V1
+
+4. Build baseline UI structure
+   - main universe page
+   - team list page
+   - team detail page
+   - player detail page
+   - season overview page
+   - confirm all pages reachable without data logic
+
+5. Implement deterministic routing
+   - define route table
+   - map routes to pages
+   - implement navigation links
+   - test deep links (team/123, player/456)
+   - verify back/forward navigation
+
+6. Implement baseline data layer
+   - choose JSON or simple API
+   - load data on startup
+   - validate schema on load
+   - implement repository functions
+   - add error handling for missing/invalid data
+
+7. Integrate data into UI
+   - bind team list to data source
+   - bind team detail to selected team
+   - bind player detail to selected player
+   - bind season overview to season data
+   - verify no dynamic logic beyond deterministic display
+
+8. Add minimal telemetry
+   - log page loads
+   - log navigation events
+   - log data load success/failure
+   - log unhandled exceptions
+   - verify logs readable and timestamped
+
+9. Apply UI polish (V1 level)
+   - consistent layout and spacing
+   - readable typography
+   - stable color palette
+   - basic responsive behavior
+   - verify no broken links or missing assets
+
+10. Perform V1 testing
+    - test all navigation paths
+    - test all data loads
+    - test error scenarios (missing file, bad id)
+    - test cold start performance
+    - test on clean environment
+
+11. Prepare V1 release
+    - bump version to V1.0.0
+    - tag release in repo
+    - update README with V1 scope and usage
+    - archive sample data used in V1
+    - verify reproducible build from scratch
+
+12. Deploy V1
+    - deploy to chosen environment
+    - verify deployment integrity
+    - smoke test all pages
+    - confirm logs writing correctly
+
+13. Post-release actions
+    - capture user feedback
+    - document V1 limitations
+    - define V2 goals (data-aware transitions)
+    - prepare backlog for V2
